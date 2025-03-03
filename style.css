@@ -13,6 +13,7 @@ body {
   background-image: url(assets/bg-image.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #735945;
 }
 
 #page {
@@ -43,12 +44,10 @@ section + section {
 h1 {
   line-height: 140%;
   font-size: 40px;
-  margin-bottom: 4px;
 }
 
 h2 {
   font-size: 24px;
-  margin-bottom: 4px;
 }
 
 h3 {
@@ -57,12 +56,24 @@ h3 {
 
 h1, h2, h3 {
   color: #291B1A;
+  line-height: 150%;
+  margin-bottom: 4px;
 }
 
-h1, h2 {
-line-height: 150%;
+#preparation > p {
+  padding-top: 12px;
 }
 
 ul {
   padding-left: 20px;
+}
+
+footer {
+  color: #f0e8c2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
